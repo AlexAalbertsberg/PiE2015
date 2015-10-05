@@ -1,0 +1,5 @@
+Question: Can you suggest a flaw in the if/else if/else version of the example program?
+
+Answer: Yes. The last else should check if n is indeed greater than zero. When a user
+inserts a character (such as 'x') or a string (such as 'hi') rather than a number, it will also work, even though
+the user technically did not insert a number (yeah yeah i know, ASCII character values).

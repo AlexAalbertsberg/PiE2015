@@ -1,0 +1,8 @@
+Question: Why is it OK to use the same integer as a counter for two separate
+for loops in the same program, but not if the two form a nested loop?
+
+Answer: Because the integer specified in a for loop is only available within
+the scope of the for loop itself. For separate for loops, this means that the
+two specified integers do not violate each other's scope. In the nested loop,
+the second loop falls within the scope of the first loop, meaning it is not
+allowed to redeclare the same integer within its scope.

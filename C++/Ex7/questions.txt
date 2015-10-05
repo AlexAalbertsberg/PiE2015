@@ -1,0 +1,32 @@
+1. Evaluate each of the below statements, deciding if they are true or false.
+
+a. (1 > 2) || (3 < 4) =
+false || true =
+true
+
+b. !(1 == 1) =
+!(true) =
+false
+
+c. (1 > 2) && (3 < 4) =
+false && true =
+false
+
+d. !((2 > 1) && (1 > -10)) =
+!(true && true) =
+!(true) =
+false
+
+e. !(1 > 2) && (1 > -10) =
+!(false) && (true) =
+true && true =
+true
+
+How many different combinations of logical operators can you think of which test if two values are equal?
+
+Quite a few, among which:
+
+a == b
+!(a != b)
+!(a > b || a < b)
+etc.
