@@ -1,5 +1,0 @@
-Question: Is it possible to overload a function by changing the return type?
-Why / why not?
-
-Answer: Yes. This is because the return type is a part of the unique signature
-of a function.
