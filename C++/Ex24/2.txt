@@ -1,0 +1,3 @@
+Question: Is !a.bad() exactly equivalent to a.good()
+
+Answer: bad() is equal to fail() and eof(), so basically yes.
